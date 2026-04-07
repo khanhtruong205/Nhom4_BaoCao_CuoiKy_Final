@@ -1,0 +1,2 @@
+tuning_protocol,best_rmse_score,best_mae_score,best_params_rmse,best_params_mae,train_rows_for_tuning,train_users_for_tuning,train_items_for_tuning
+grid_search_fit_on_train_split_only,1.4571984447310686,1.2567455565341863,"{""n_factors"": 50, ""n_epochs"": 40, ""lr_all"": 0.007, ""reg_all"": 0.05}","{""n_factors"": 50, ""n_epochs"": 40, ""lr_all"": 0.007, ""reg_all"": 0.05}",2150,1225,695

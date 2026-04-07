@@ -1,0 +1,46 @@
+{
+  "source_orders_base_file": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\data\\processed\\orders_base_final.parquet",
+  "n_tests_requested": 3,
+  "n_tests_ran": 3,
+  "n_significant_tests": 3,
+  "top_feature_by_chi2": "customer_state",
+  "top_feature_by_cramers_v": "customer_state",
+  "assumption_warning_features": [
+    "payment_type_mode"
+  ],
+  "n_assumption_warning_tests": 1,
+  "safe_for_stronger_interpretation_features": [
+    "customer_state",
+    "main_category"
+  ],
+  "results_file": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_results.csv",
+  "table_dir": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_tables",
+  "plot_dir": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\plots\\chi_square",
+  "plot_registry": [
+    {
+      "feature": "payment_type_mode",
+      "contingency_csv": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_tables\\contingency_payment_type_mode.csv",
+      "expected_csv": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_tables\\expected_payment_type_mode.csv",
+      "standardized_residuals_csv": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_tables\\standardized_residuals_payment_type_mode.csv",
+      "stacked_share_plot": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\plots\\chi_square\\stacked_share_payment_type_mode.png",
+      "residual_heatmap_plot": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\plots\\chi_square\\residual_heatmap_payment_type_mode.png"
+    },
+    {
+      "feature": "customer_state",
+      "contingency_csv": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_tables\\contingency_customer_state.csv",
+      "expected_csv": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_tables\\expected_customer_state.csv",
+      "standardized_residuals_csv": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_tables\\standardized_residuals_customer_state.csv",
+      "stacked_share_plot": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\plots\\chi_square\\stacked_share_customer_state.png",
+      "residual_heatmap_plot": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\plots\\chi_square\\residual_heatmap_customer_state.png"
+    },
+    {
+      "feature": "main_category",
+      "contingency_csv": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_tables\\contingency_main_category.csv",
+      "expected_csv": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_tables\\expected_main_category.csv",
+      "standardized_residuals_csv": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\metrics\\chi_square_tables\\standardized_residuals_main_category.csv",
+      "stacked_share_plot": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\plots\\chi_square\\stacked_share_main_category.png",
+      "residual_heatmap_plot": "C:\\Users\\trant\\OneDrive\\Tài liệu\\Documents\\UTE\\BIGDATA\\olist_ml_project\\artifacts\\plots\\chi_square\\residual_heatmap_main_category.png"
+    }
+  ],
+  "report_note": "Kết quả chi-square chỉ nên diễn giải ở mức liên hệ thống kê. Khi viết báo cáo cần kết hợp p-value, Cramér's V và expected-count diagnostics."
+}

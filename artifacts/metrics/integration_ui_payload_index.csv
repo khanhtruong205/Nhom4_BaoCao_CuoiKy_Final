@@ -1,0 +1,13 @@
+payload_name,present,type
+classification_tabular,True,dict
+classification_tabular_unknown_category,True,dict
+classification_text,True,list
+clustering,True,dict
+clustering_edge_case,True,dict
+fpgrowth,True,dict
+recommendation_known_product_neighbors,True,dict
+recommendation_known_user,True,dict
+recommendation_unknown_product_neighbors,True,dict
+recommendation_unknown_user,True,dict
+regression,True,dict
+regression_unknown_category,True,dict

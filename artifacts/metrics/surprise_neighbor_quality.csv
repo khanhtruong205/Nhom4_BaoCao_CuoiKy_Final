@@ -1,0 +1,4 @@
+query_product_id,n_rows,n_real_neighbors,max_similarity,mean_similarity,neighbor_status
+73326828aa5efe1ba096223de496f596,10,2,1.0,1.0,has_real_neighbors
+cold_start_demo_product,10,0,,,fallback_only
+dd6a505f83dd3c6326aa9856519e0978,10,5,1.0,1.0,has_real_neighbors

@@ -1,0 +1,162 @@
+support,itemset_size,itemsets_str,support_count
+0.279391,1,furniture_decor,202
+0.272476,1,bed_bath_table,197
+0.141079,1,housewares,102
+0.128631,1,baby,93
+0.098202,1,garden_tools,71
+0.096819,2,"bed_bath_table, furniture_decor",70
+0.095436,1,health_beauty,69
+0.092669,1,sports_leisure,67
+0.091286,1,cool_stuff,66
+0.069156,1,computers_accessories,50
+0.069156,1,home_confort,50
+0.069156,1,toys,50
+0.059474,2,"bed_bath_table, home_confort",43
+0.055325,1,watches_gifts,40
+0.048409,1,auto,35
+0.042877,1,stationery,31
+0.037344,1,telephony,27
+0.035961,1,home_construction,26
+0.034578,1,perfumery,25
+0.033195,2,"furniture_decor, housewares",24
+0.031812,1,electronics,23
+0.027663,2,"baby, cool_stuff",20
+0.027663,2,"bed_bath_table, housewares",20
+0.026279,2,"baby, toys",19
+0.024896,1,construction_tools_lights,18
+0.023513,2,"baby, bed_bath_table",17
+0.023513,1,construction_tools_construction,17
+0.02213,2,"furniture_decor, garden_tools",16
+0.020747,1,furniture_living_room,15
+0.020747,1,luggage_accessories,15
+0.020747,1,office_furniture,15
+0.019364,2,"health_beauty, sports_leisure",14
+0.017981,2,"furniture_decor, home_construction",13
+0.016598,2,"baby, furniture_decor",12
+0.016598,1,market_place,12
+0.015214,2,"bed_bath_table, health_beauty",11
+0.015214,2,"construction_tools_lights, furniture_decor",11
+0.015214,2,"garden_tools, housewares",11
+0.015214,2,"health_beauty, perfumery",11
+0.015214,2,"housewares, sports_leisure",11
+0.013831,2,"bed_bath_table, cool_stuff",10
+0.013831,1,fashion_bags_accessories,10
+0.013831,1,pet_shop,10
+0.012448,1,costruction_tools_garden,9
+0.011065,2,"computers_accessories, garden_tools",8
+0.011065,1,consoles_games,8
+0.011065,1,drinks,8
+0.011065,1,food,8
+0.009682,2,"cool_stuff, toys",7
+0.009682,2,"furniture_decor, furniture_living_room",7
+0.009682,2,"furniture_decor, watches_gifts",7
+0.009682,2,"garden_tools, home_construction",7
+0.009682,1,construction_tools_safety,7
+0.009682,1,musical_instruments,7
+0.008299,2,"audio, watches_gifts",6
+0.008299,2,"computers_accessories, telephony",6
+0.008299,2,"cool_stuff, telephony",6
+0.008299,2,"furniture_decor, home_confort",6
+0.008299,2,"stationery, toys",6
+0.008299,1,art,6
+0.008299,1,audio,6
+0.008299,1,kitchen_dining_laundry_garden_furniture,6
+0.008299,1,small_appliances,6
+0.006916,2,"art, furniture_decor",5
+0.006916,2,"auto, computers_accessories",5
+0.006916,2,"baby, housewares",5
+0.006916,2,"bed_bath_table, office_furniture",5
+0.006916,2,"computers_accessories, cool_stuff",5
+0.006916,2,"computers_accessories, electronics",5
+0.006916,2,"construction_tools_construction, garden_tools",5
+0.006916,2,"luggage_accessories, stationery",5
+0.006916,2,"sports_leisure, watches_gifts",5
+0.006916,1,books_general_interest,5
+0.005533,2,"baby, garden_tools",4
+0.005533,2,"bed_bath_table, garden_tools",4
+0.005533,2,"computers_accessories, housewares",4
+0.005533,2,"cool_stuff, furniture_decor",4
+0.005533,2,"furniture_decor, office_furniture",4
+0.005533,2,"health_beauty, stationery",4
+0.005533,2,"housewares, stationery",4
+0.005533,2,"sports_leisure, toys",4
+0.005533,1,books_technical,4
+0.005533,1,food_drink,4
+0.005533,1,industry_commerce_and_business,4
+0.004149,2,"auto, construction_tools_construction",3
+0.004149,2,"auto, cool_stuff",3
+0.004149,2,"auto, sports_leisure",3
+0.004149,2,"auto, telephony",3
+0.004149,2,"baby, fashion_bags_accessories",3
+0.004149,2,"computers_accessories, sports_leisure",3
+0.004149,2,"construction_tools_lights, sports_leisure",3
+0.004149,2,"drinks, health_beauty",3
+0.004149,2,"food, health_beauty",3
+0.004149,2,"furniture_decor, health_beauty",3
+0.004149,2,"furniture_decor, market_place",3
+0.004149,2,"furniture_decor, sports_leisure",3
+0.004149,2,"furniture_living_room, office_furniture",3
+0.004149,2,"garden_tools, sports_leisure",3
+0.004149,2,"health_beauty, watches_gifts",3
+0.004149,2,"perfumery, sports_leisure",3
+0.004149,1,furniture_bedroom,3
+0.004149,1,tablets_printing_image,3
+0.002766,2,"auto, baby",2
+0.002766,2,"auto, bed_bath_table",2
+0.002766,2,"auto, furniture_decor",2
+0.002766,2,"auto, garden_tools",2
+0.002766,2,"auto, housewares",2
+0.002766,2,"baby, fashion_shoes",2
+0.002766,2,"bed_bath_table, costruction_tools_garden",2
+0.002766,2,"bed_bath_table, electronics",2
+0.002766,2,"bed_bath_table, furniture_living_room",2
+0.002766,2,"bed_bath_table, market_place",2
+0.002766,2,"bed_bath_table, toys",2
+0.002766,2,"books_general_interest, market_place",2
+0.002766,2,"computers_accessories, luggage_accessories",2
+0.002766,2,"computers_accessories, stationery",2
+0.002766,2,"consoles_games, toys",2
+0.002766,2,"construction_tools_safety, cool_stuff",2
+0.002766,2,"construction_tools_safety, home_construction",2
+0.002766,2,"cool_stuff, health_beauty",2
+0.002766,2,"cool_stuff, tablets_printing_image",2
+0.002766,2,"cool_stuff, watches_gifts",2
+0.002766,2,"drinks, housewares",2
+0.002766,2,"drinks, sports_leisure",2
+0.002766,2,"electronics, furniture_decor",2
+0.002766,2,"electronics, perfumery",2
+0.002766,2,"electronics, telephony",2
+0.002766,2,"electronics, watches_gifts",2
+0.002766,2,"fashion_bags_accessories, fashion_childrens_clothes",2
+0.002766,2,"fashion_bags_accessories, stationery",2
+0.002766,2,"food_drink, housewares",2
+0.002766,2,"food_drink, sports_leisure",2
+0.002766,2,"furniture_decor, industry_commerce_and_business",2
+0.002766,2,"furniture_decor, perfumery",2
+0.002766,2,"furniture_decor, pet_shop",2
+0.002766,2,"furniture_decor, stationery",2
+0.002766,2,"garden_tools, stationery",2
+0.002766,2,"garden_tools, watches_gifts",2
+0.002766,2,"health_beauty, luggage_accessories",2
+0.002766,2,"health_beauty, market_place",2
+0.002766,2,"health_beauty, telephony",2
+0.002766,2,"home_construction, housewares",2
+0.002766,2,"housewares, kitchen_dining_laundry_garden_furniture",2
+0.002766,2,"housewares, market_place",2
+0.002766,2,"housewares, watches_gifts",2
+0.002766,2,"office_furniture, sports_leisure",2
+0.002766,2,"perfumery, toys",2
+0.002766,2,"stationery, watches_gifts",2
+0.002766,2,"telephony, watches_gifts",2
+0.002766,1,air_conditioning,2
+0.002766,1,arts_and_craftmanship,2
+0.002766,1,cine_photo,2
+0.002766,1,dvds_blu_ray,2
+0.002766,1,fashion_childrens_clothes,2
+0.002766,1,fashion_shoes,2
+0.002766,1,fashion_sport,2
+0.002766,1,fixed_telephony,2
+0.002766,1,flowers,2
+0.002766,1,home_comfort_2,2
+0.002766,1,la_cuisine,2
+0.002766,1,music,2

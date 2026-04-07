@@ -1,0 +1,3 @@
+cluster_gmm,customer_count,recency_days_mean,recency_days_median,frequency_orders_mean,frequency_orders_median,monetary_value_mean,monetary_value_median,customer_share_pct,business_score,segment_name,business_strategy,order_count,avg_review_score,avg_payment_value,avg_delivery_time,top_state,top_category
+1,2801,220.2945376651196,199.0,2.1138878971795787,2.0,308.5887932881114,225.54999999999998,3.0,3.0,VIP / Repeat buyers,"Ưu tiên loyalty, upsell và giữ chân.",5943,4.2118485825836025,145.955251556453,12.308520930679878,SP,bed_bath_table
+0,90557,238.48761553496692,219.0,1.0,1.0,160.761780536016,105.39,97.0,-3.0,Mass / one-time customers,Tăng repeat rate bằng cross-sell cơ bản và voucher nhẹ.,90740,4.1480302206641,160.84232656299938,12.574544732890685,SP,bed_bath_table

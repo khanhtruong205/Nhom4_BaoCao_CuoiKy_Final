@@ -1,0 +1,414 @@
+{
+  "classification_tabular": {
+    "predicted_label": 1,
+    "confidence": 0.6067249975005272,
+    "class_probabilities": {
+      "0": 0.3932750024994728,
+      "1": 0.6067249975005272
+    },
+    "raw_score": null
+  },
+  "classification_tabular_unknown_category": {
+    "predicted_label": 1,
+    "confidence": 0.7065254421933648,
+    "class_probabilities": {
+      "0": 0.2934745578066349,
+      "1": 0.7065254421933648
+    },
+    "raw_score": null
+  },
+  "classification_text": [
+    {
+      "text": "produto excelente chegou rápido e bem embalado",
+      "predicted_label": 1,
+      "raw_score": 4.8254681248547024
+    },
+    {
+      "text": "entrega atrasou muito e o produto veio com defeito",
+      "predicted_label": 0,
+      "raw_score": -2.408753642249474
+    },
+    {
+      "text": "",
+      "predicted_label": 1,
+      "raw_score": 0.5571570292773309
+    }
+  ],
+  "regression": {
+    "predicted_payment_value_sum": 40.66462238215326,
+    "y_true_reference": 38.71,
+    "absolute_error_vs_reference": 1.9546223821532607
+  },
+  "regression_unknown_category": {
+    "predicted_payment_value_sum": 46.67108464890123
+  },
+  "clustering": {
+    "cluster_model_used": "kmeans",
+    "customer_unique_id": "0000366f3b9a7992bf8c76cfdf3221e2",
+    "assigned_cluster": 0,
+    "segment_name": "High-value lapsed",
+    "use_log1p_transform": true
+  },
+  "clustering_edge_case": {
+    "cluster_model_used": "kmeans",
+    "assigned_cluster": 1,
+    "segment_name": "Low-value lapsed"
+  },
+  "recommendation_known_user": {
+    "customer_unique_id": "004b45ec5c64187465168251cd1c9c2f",
+    "n_rows": 10,
+    "top_5": [
+      {
+        "product_id": "43b54d1fc56ff394092a3dff6be2d39f",
+        "estimated_score": 4.16952261826997,
+        "reason": "collaborative_filtering",
+        "product_category_name_english": "health_beauty",
+        "avg_price": 110.32,
+        "purchase_count": 15,
+        "rating_mean": 4.8,
+        "rating_count": 15
+      },
+      {
+        "product_id": "02475368dfb38934fe55f574024fe1d7",
+        "estimated_score": 4.141379257794501,
+        "reason": "collaborative_filtering",
+        "product_category_name_english": "watches_gifts",
+        "avg_price": 29.0,
+        "purchase_count": 12,
+        "rating_mean": 4.2727272727272725,
+        "rating_count": 11
+      },
+      {
+        "product_id": "45a9a8115c62ad1ce34845e5ec4cfd48",
+        "estimated_score": 4.084158985228008,
+        "reason": "collaborative_filtering",
+        "product_category_name_english": "toys",
+        "avg_price": 99.99,
+        "purchase_count": 5,
+        "rating_mean": 4.5,
+        "rating_count": 4
+      },
+      {
+        "product_id": "c7b3cf9de7be95b3e09e7a63315685eb",
+        "estimated_score": 4.083493311603088,
+        "reason": "collaborative_filtering",
+        "product_category_name_english": "luggage_accessories",
+        "avg_price": 82.41315789473686,
+        "purchase_count": 38,
+        "rating_mean": 4.542857142857143,
+        "rating_count": 35
+      },
+      {
+        "product_id": "7686fe49c98ae1c537b5cc51992f5d20",
+        "estimated_score": 4.056411348231229,
+        "reason": "collaborative_filtering",
+        "product_category_name_english": "baby",
+        "avg_price": 169.99782608695654,
+        "purchase_count": 23,
+        "rating_mean": 4.608695652173913,
+        "rating_count": 23
+      }
+    ]
+  },
+  "recommendation_unknown_user": {
+    "customer_unique_id": "integration_unknown_user_demo",
+    "n_rows": 10,
+    "top_5": [
+      {
+        "product_id": "73326828aa5efe1ba096223de496f596",
+        "product_category_name_english": "food",
+        "rating_mean": 4.849056603773585,
+        "rating_count": 53,
+        "avg_price": 82.61148148148149,
+        "purchase_count": 54,
+        "weighted_rating": 4.7228374521895615,
+        "estimated_score": 4.7228374521895615,
+        "reason": "cold_start_popularity"
+      },
+      {
+        "product_id": "3e4176d545618ed02f382a3057de32b4",
+        "product_category_name_english": "luggage_accessories",
+        "rating_mean": 4.958333333333333,
+        "rating_count": 24,
+        "avg_price": 132.37958333333333,
+        "purchase_count": 24,
+        "weighted_rating": 4.692316455527718,
+        "estimated_score": 4.692316455527718,
+        "reason": "cold_start_popularity"
+      },
+      {
+        "product_id": "6a8631b72a2f8729b91514db87e771c0",
+        "product_category_name_english": "electronics",
+        "rating_mean": 4.7368421052631575,
+        "rating_count": 57,
+        "avg_price": 26.641935483870967,
+        "purchase_count": 62,
+        "weighted_rating": 4.634906858028991,
+        "estimated_score": 4.634906858028991,
+        "reason": "cold_start_popularity"
+      },
+      {
+        "product_id": "f7f59e6186e10983a061ac7bdb3494d6",
+        "product_category_name_english": "housewares",
+        "rating_mean": 4.814814814814815,
+        "rating_count": 27,
+        "avg_price": 34.9,
+        "purchase_count": 39,
+        "weighted_rating": 4.609155661836281,
+        "estimated_score": 4.609155661836281,
+        "reason": "cold_start_popularity"
+      },
+      {
+        "product_id": "62c89abe1afe3a23c17765d462718a4c",
+        "product_category_name_english": "perfumery",
+        "rating_mean": 4.9375,
+        "rating_count": 16,
+        "avg_price": 244.8125,
+        "purchase_count": 16,
+        "weighted_rating": 4.597644595690093,
+        "estimated_score": 4.597644595690093,
+        "reason": "cold_start_popularity"
+      }
+    ]
+  },
+  "recommendation_known_product_neighbors": {
+    "query_product_id": "005030ef108f58b46b78116f754d8d38",
+    "n_rows": 10,
+    "top_5": [
+      {
+        "product_id": "75c06ee06b201f9b6301d2b5e72993f8",
+        "similarity": 1.0,
+        "neighbor_rank": 1,
+        "reason": "item_knn_neighbors",
+        "product_category_name_english": "perfumery",
+        "avg_price": 14.581071428571429,
+        "purchase_count": 28,
+        "rating_mean": 3.678571428571429,
+        "rating_count": 28
+      },
+      {
+        "product_id": "51250f90d798d377a1928e8a4e2e9ae1",
+        "similarity": 1.0,
+        "neighbor_rank": 2,
+        "reason": "item_knn_neighbors",
+        "product_category_name_english": "perfumery",
+        "avg_price": 13.99,
+        "purchase_count": 12,
+        "rating_mean": 3.25,
+        "rating_count": 12
+      },
+      {
+        "product_id": "a6ad77b15e566298a4e8ee2011ab1255",
+        "similarity": 0.0,
+        "neighbor_rank": 3,
+        "reason": "item_knn_neighbors",
+        "product_category_name_english": "furniture_decor",
+        "avg_price": 29.64,
+        "purchase_count": 40,
+        "rating_mean": 4.2105263157894735,
+        "rating_count": 19
+      },
+      {
+        "product_id": "b0961721fd839e9982420e807758a2a6",
+        "similarity": 0.0,
+        "neighbor_rank": 4,
+        "reason": "item_knn_neighbors",
+        "product_category_name_english": "garden_tools",
+        "avg_price": 57.74566929133858,
+        "purchase_count": 127,
+        "rating_mean": 4.270833333333333,
+        "rating_count": 96
+      },
+      {
+        "product_id": "4630761de87581e8b659dc77bb7eb4ee",
+        "similarity": 0.0,
+        "neighbor_rank": 5,
+        "reason": "item_knn_neighbors",
+        "product_category_name_english": "luggage_accessories",
+        "avg_price": 72.74000000000001,
+        "purchase_count": 2,
+        "rating_mean": 5.0,
+        "rating_count": 2
+      }
+    ]
+  },
+  "recommendation_unknown_product_neighbors": {
+    "query_product_id": "integration_unknown_product_demo",
+    "n_rows": 10,
+    "top_5": [
+      {
+        "product_id": "73326828aa5efe1ba096223de496f596",
+        "product_category_name_english": "food",
+        "rating_mean": 4.849056603773585,
+        "rating_count": 53,
+        "avg_price": 82.61148148148149,
+        "purchase_count": 54,
+        "weighted_rating": 4.7228374521895615,
+        "estimated_score": 4.7228374521895615,
+        "reason": "unknown_item_fallback",
+        "neighbor_rank": 1,
+        "similarity": NaN
+      },
+      {
+        "product_id": "3e4176d545618ed02f382a3057de32b4",
+        "product_category_name_english": "luggage_accessories",
+        "rating_mean": 4.958333333333333,
+        "rating_count": 24,
+        "avg_price": 132.37958333333333,
+        "purchase_count": 24,
+        "weighted_rating": 4.692316455527718,
+        "estimated_score": 4.692316455527718,
+        "reason": "unknown_item_fallback",
+        "neighbor_rank": 2,
+        "similarity": NaN
+      },
+      {
+        "product_id": "6a8631b72a2f8729b91514db87e771c0",
+        "product_category_name_english": "electronics",
+        "rating_mean": 4.7368421052631575,
+        "rating_count": 57,
+        "avg_price": 26.641935483870967,
+        "purchase_count": 62,
+        "weighted_rating": 4.634906858028991,
+        "estimated_score": 4.634906858028991,
+        "reason": "unknown_item_fallback",
+        "neighbor_rank": 3,
+        "similarity": NaN
+      },
+      {
+        "product_id": "f7f59e6186e10983a061ac7bdb3494d6",
+        "product_category_name_english": "housewares",
+        "rating_mean": 4.814814814814815,
+        "rating_count": 27,
+        "avg_price": 34.9,
+        "purchase_count": 39,
+        "weighted_rating": 4.609155661836281,
+        "estimated_score": 4.609155661836281,
+        "reason": "unknown_item_fallback",
+        "neighbor_rank": 4,
+        "similarity": NaN
+      },
+      {
+        "product_id": "62c89abe1afe3a23c17765d462718a4c",
+        "product_category_name_english": "perfumery",
+        "rating_mean": 4.9375,
+        "rating_count": 16,
+        "avg_price": 244.8125,
+        "purchase_count": 16,
+        "weighted_rating": 4.597644595690093,
+        "estimated_score": 4.597644595690093,
+        "reason": "unknown_item_fallback",
+        "neighbor_rank": 5,
+        "similarity": NaN
+      }
+    ]
+  },
+  "fpgrowth": {
+    "rule_source": "association_rules_csv",
+    "itemset_source": "frequent_itemsets_csv",
+    "n_rules_total_source": 96,
+    "n_rules_usable_for_ui": 96,
+    "top_5_rules": [
+      {
+        "antecedent support": 0.002766,
+        "consequent support": 0.013831,
+        "support": 0.002766,
+        "confidence": 1.0,
+        "lift": 72.3,
+        "representativity": 1.0,
+        "leverage": 0.002728,
+        "conviction": NaN,
+        "zhangs_metric": 0.988904,
+        "jaccard": 0.2,
+        "certainty": 1.0,
+        "kulczynski": 0.6,
+        "antecedent_len": 1,
+        "consequent_len": 1,
+        "antecedents_str": "fashion_childrens_clothes",
+        "consequents_str": "fashion_bags_accessories",
+        "rule_str": "fashion_childrens_clothes → fashion_bags_accessories",
+        "support_count": 2
+      },
+      {
+        "antecedent support": 0.013831,
+        "consequent support": 0.002766,
+        "support": 0.002766,
+        "confidence": 0.2,
+        "lift": 72.3,
+        "representativity": 1.0,
+        "leverage": 0.002728,
+        "conviction": 1.246542,
+        "zhangs_metric": 1.0,
+        "jaccard": 0.2,
+        "certainty": 0.197781,
+        "kulczynski": 0.6,
+        "antecedent_len": 1,
+        "consequent_len": 1,
+        "antecedents_str": "fashion_bags_accessories",
+        "consequents_str": "fashion_childrens_clothes",
+        "rule_str": "fashion_bags_accessories → fashion_childrens_clothes",
+        "support_count": 2
+      },
+      {
+        "antecedent support": 0.006916,
+        "consequent support": 0.016598,
+        "support": 0.002766,
+        "confidence": 0.4,
+        "lift": 24.1,
+        "representativity": 1.0,
+        "leverage": 0.002651,
+        "conviction": 1.639004,
+        "zhangs_metric": 0.965181,
+        "jaccard": 0.133333,
+        "certainty": 0.389873,
+        "kulczynski": 0.283333,
+        "antecedent_len": 1,
+        "consequent_len": 1,
+        "antecedents_str": "books_general_interest",
+        "consequents_str": "market_place",
+        "rule_str": "books_general_interest → market_place",
+        "support_count": 2
+      },
+      {
+        "antecedent support": 0.016598,
+        "consequent support": 0.006916,
+        "support": 0.002766,
+        "confidence": 0.166667,
+        "lift": 24.1,
+        "representativity": 1.0,
+        "leverage": 0.002651,
+        "conviction": 1.191701,
+        "zhangs_metric": 0.974684,
+        "jaccard": 0.133333,
+        "certainty": 0.160864,
+        "kulczynski": 0.283333,
+        "antecedent_len": 1,
+        "consequent_len": 1,
+        "antecedents_str": "market_place",
+        "consequents_str": "books_general_interest",
+        "rule_str": "market_place → books_general_interest",
+        "support_count": 2
+      },
+      {
+        "antecedent support": 0.008299,
+        "consequent support": 0.055325,
+        "support": 0.008299,
+        "confidence": 1.0,
+        "lift": 18.075,
+        "representativity": 1.0,
+        "leverage": 0.00784,
+        "conviction": NaN,
+        "zhangs_metric": 0.95258,
+        "jaccard": 0.15,
+        "certainty": 1.0,
+        "kulczynski": 0.575,
+        "antecedent_len": 1,
+        "consequent_len": 1,
+        "antecedents_str": "audio",
+        "consequents_str": "watches_gifts",
+        "rule_str": "audio → watches_gifts",
+        "support_count": 6
+      }
+    ]
+  }
+}

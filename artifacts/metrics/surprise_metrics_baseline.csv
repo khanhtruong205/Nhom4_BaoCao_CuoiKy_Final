@@ -1,0 +1,2 @@
+model,holdout_rmse,holdout_mae,fit_time_sec,test_time_sec,n_test_predictions,selection_eligible
+GlobalMeanBaseline,1.6194463741400393,1.4288552158727417,0.0,0.0,538,False

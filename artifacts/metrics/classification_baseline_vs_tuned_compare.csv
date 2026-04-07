@@ -1,0 +1,3 @@
+version,model,f1_macro
+tuned_best,RandomForestClassifier_TUNED,0.5870642277930429
+baseline_best,RandomForestClassifier,0.5835271487063054
