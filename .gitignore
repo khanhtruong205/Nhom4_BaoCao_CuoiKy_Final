@@ -1,6 +1,3 @@
-# --- 1. Machine Learning Artifacts (CHẶN FILE > 100MB) ---
-# Chặn các mô hình nặng đã thấy trong ảnh artifacts/models/
+# Chặn các model nặng (Đã có link Google Drive nên không cần up lên đây)
 artifacts/models/*.joblib
 artifacts/models/*.pkl
-artifacts/models/*.pth
-artifacts/models/*.h5
