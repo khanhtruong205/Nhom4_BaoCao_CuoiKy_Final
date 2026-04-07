@@ -1,0 +1,7 @@
+payment_type_mode,negative_or_neutral,positive
+boleto,4514,15122
+credit_card,17263,58275
+debit_card,315,1206
+not_defined,3,0
+unknown,1,0
+voucher,532,1442

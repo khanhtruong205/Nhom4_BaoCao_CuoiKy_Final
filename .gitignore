@@ -1,0 +1,6 @@
+# --- 1. Machine Learning Artifacts (CHẶN FILE > 100MB) ---
+# Chặn các mô hình nặng đã thấy trong ảnh artifacts/models/
+artifacts/models/*.joblib
+artifacts/models/*.pkl
+artifacts/models/*.pth
+artifacts/models/*.h5

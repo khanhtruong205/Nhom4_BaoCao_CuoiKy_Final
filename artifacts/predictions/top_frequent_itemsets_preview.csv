@@ -1,0 +1,21 @@
+support,itemset_size,itemsets_str,support_count
+0.279391,1,furniture_decor,202
+0.272476,1,bed_bath_table,197
+0.141079,1,housewares,102
+0.128631,1,baby,93
+0.098202,1,garden_tools,71
+0.096819,2,"bed_bath_table, furniture_decor",70
+0.095436,1,health_beauty,69
+0.092669,1,sports_leisure,67
+0.091286,1,cool_stuff,66
+0.069156,1,computers_accessories,50
+0.069156,1,home_confort,50
+0.069156,1,toys,50
+0.059474,2,"bed_bath_table, home_confort",43
+0.055325,1,watches_gifts,40
+0.048409,1,auto,35
+0.042877,1,stationery,31
+0.037344,1,telephony,27
+0.035961,1,home_construction,26
+0.034578,1,perfumery,25
+0.033195,2,"furniture_decor, housewares",24

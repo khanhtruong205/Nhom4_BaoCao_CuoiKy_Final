@@ -1,0 +1,2 @@
+baseline_model,tuned_model_label,cv_best_rmse,holdout_mae,holdout_mse,holdout_rmse,holdout_r2,tuning_time_sec,best_params
+RandomForestRegressor,RandomForestRegressor_TUNED,56.244734670402615,8.243743788640678,1012.9374774129136,31.826678705339543,0.9771372319911356,199.3643741607666,"{""regressor__model__max_depth"": 18, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 260}"

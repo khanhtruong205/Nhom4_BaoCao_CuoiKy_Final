@@ -1,0 +1,20 @@
+column_name,feature_group,description,raw_or_engineered,safe_for_prepurchase_prediction
+order_id,identifier,Mã đơn hàng duy nhất,raw,No
+customer_unique_id,customer,Mã khách hàng duy nhất dùng cho RFM/Recommendation,raw,Depends
+order_status,order,Trạng thái đơn hàng,raw,No
+item_count,basket,Số item trong đơn,engineered,Yes
+unique_products,basket,Số sản phẩm unique trong đơn,engineered,Yes
+unique_sellers,basket,Số seller unique trong đơn,engineered,Yes
+price_sum,payment,Tổng giá sản phẩm trong đơn,engineered,Yes
+freight_value_sum,payment,Tổng phí vận chuyển,engineered,Depends
+payment_value_sum,payment,Tổng giá trị thanh toán,engineered,Depends
+payment_type_mode,payment,Loại thanh toán phổ biến nhất trong order,engineered,Yes
+main_category,product,Danh mục sản phẩm chính của đơn,engineered,Yes
+customer_state,customer_geo,Bang của khách hàng,engineered,Yes
+seller_state_mode,seller_geo,Bang seller đại diện trong đơn,engineered,Yes
+approval_time_hours,time,Thời gian từ purchase đến approved,engineered,No
+delivery_time_days,logistics,Số ngày từ mua đến giao thành công,engineered,No
+delivery_delay_days,logistics,Độ trễ giao hàng so với estimated date,engineered,No
+review_score,review_target,Điểm review 1-5,raw,No
+review_label,review_target,Nhãn binary từ review_score (>=4 là 1),engineered,No
+review_comment_message,review_text,Nội dung comment review dùng cho TF-IDF,raw,No

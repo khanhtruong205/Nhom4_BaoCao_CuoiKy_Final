@@ -1,0 +1,152 @@
+{
+  "transactions_source_file": "..\\data\\processed\\transactions_df.parquet",
+  "transaction_grain": "order_level_category",
+  "mining_subset_rule": "remove_unknown_then_keep_item_count_gte_2",
+  "min_items_for_mining": 2,
+  "n_transactions_raw": 96478,
+  "n_transactions_clean": 96478,
+  "n_transactions_after_remove_unknown": 95146,
+  "n_transactions_used_for_mining": 723,
+  "mining_coverage_pct_after_remove_unknown": 0.7599,
+  "n_excluded_single_or_empty_after_remove_unknown": 94423,
+  "n_unique_items": 61,
+  "avg_items_per_transaction_input": 1.0083,
+  "avg_items_after_remove_unknown": 1.0078,
+  "avg_items_used_for_mining": 2.0207,
+  "median_items_used_for_mining": 2.0,
+  "max_items_used_for_mining": 3,
+  "basket_rows": 723,
+  "basket_cols": 61,
+  "basket_density": 0.033127,
+  "support_grid_effective": [
+    0.002766,
+    0.004149,
+    0.006916,
+    0.01,
+    0.011065,
+    0.013831,
+    0.02,
+    0.020747,
+    0.03,
+    0.05
+  ],
+  "confidence_grid": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "best_min_support": 0.002766,
+  "best_min_confidence": 0.05,
+  "best_params_reason": "Ưu tiên cấu hình tạo được nhiều rules report-ready (support_count >= 5, confidence >= 0.1) nhưng vẫn giữ được số rules usable cho UI.",
+  "ui_rule_filters": {
+    "min_lift": 1.0,
+    "min_confidence": 0.05,
+    "min_support_count": 2
+  },
+  "report_rule_filters": {
+    "min_confidence": 0.1,
+    "min_support_count": 5
+  },
+  "n_rules_raw_before_cleaning": 146,
+  "n_rules_usable_for_ui": 96,
+  "n_rules_report_ready": 5,
+  "n_rules_final": 96,
+  "n_frequent_itemsets_final": 161,
+  "top_5_rules_report": [
+    {
+      "antecedents_str": "bed_bath_table",
+      "consequents_str": "furniture_decor",
+      "support": 0.09681881051175657,
+      "support_count": 70,
+      "confidence": 0.35532994923857875,
+      "lift": 1.2717997688093685,
+      "leverage": 0.02069140988925429,
+      "conviction": 1.1177944043301642,
+      "antecedent_len": 1,
+      "consequent_len": 1,
+      "rule_str": "bed_bath_table → furniture_decor"
+    },
+    {
+      "antecedents_str": "furniture_decor",
+      "consequents_str": "bed_bath_table",
+      "support": 0.09681881051175657,
+      "support_count": 70,
+      "confidence": 0.3465346534653465,
+      "lift": 1.2717997688093683,
+      "leverage": 0.02069140988925429,
+      "conviction": 1.1133324950752337,
+      "antecedent_len": 1,
+      "consequent_len": 1,
+      "rule_str": "furniture_decor → bed_bath_table"
+    },
+    {
+      "antecedents_str": "home_confort",
+      "consequents_str": "bed_bath_table",
+      "support": 0.059474412171507604,
+      "support_count": 43,
+      "confidence": 0.8599999999999999,
+      "lift": 3.156243654822335,
+      "leverage": 0.04063099617583872,
+      "conviction": 5.196601462161624,
+      "antecedent_len": 1,
+      "consequent_len": 1,
+      "rule_str": "home_confort → bed_bath_table"
+    },
+    {
+      "antecedents_str": "bed_bath_table",
+      "consequents_str": "home_confort",
+      "support": 0.059474412171507604,
+      "support_count": 43,
+      "confidence": 0.21827411167512692,
+      "lift": 3.156243654822335,
+      "leverage": 0.04063099617583872,
+      "conviction": 1.1907546119164376,
+      "antecedent_len": 1,
+      "consequent_len": 1,
+      "rule_str": "bed_bath_table → home_confort"
+    },
+    {
+      "antecedents_str": "cool_stuff",
+      "consequents_str": "baby",
+      "support": 0.027662517289073305,
+      "support_count": 20,
+      "confidence": 0.30303030303030304,
+      "lift": 2.355816226783969,
+      "leverage": 0.015920295219894055,
+      "conviction": 1.2502255096518131,
+      "antecedent_len": 1,
+      "consequent_len": 1,
+      "rule_str": "cool_stuff → baby"
+    }
+  ],
+  "saved_files": {
+    "frequent_itemsets": "..\\artifacts\\metrics\\frequent_itemsets.csv",
+    "association_rules": "..\\artifacts\\metrics\\association_rules.csv",
+    "threshold_search": "..\\artifacts\\metrics\\fpgrowth_threshold_search.csv",
+    "top_rules_preview": "..\\artifacts\\predictions\\top_association_rules_preview.csv",
+    "top_rules_report": "..\\artifacts\\metrics\\top_association_rules_report.csv",
+    "top_itemsets_preview": "..\\artifacts\\predictions\\top_frequent_itemsets_preview.csv",
+    "item_frequency": "..\\artifacts\\metrics\\transaction_item_frequency.csv"
+  },
+  "report_note": "Notebook này giữ grain order-level category basket theo tài liệu hiện tại. Top 10 theo lift dùng cho tiến độ; Top 5 report-ready ưu tiên support/confidence/lift cân bằng.",
+  "mining_quality_warning": "Coverage mining dưới 5%. Kết quả phù hợp cho đồ án / demo / UI nhưng không nên diễn giải là đại diện mạnh cho toàn bộ hệ giao dịch.",
+  "rule_usage_guidance": {
+    "preview_rules": "top_association_rules_preview.csv dùng cho preview / phụ lục / tiến độ; có thể chứa rule support thấp.",
+    "report_rules": "top_association_rules_report.csv dùng cho bảng chính trong báo cáo cuối kỳ."
+  },
+  "affected_downstream_consumers": [
+    "08_integration_check.ipynb (nếu đọc summary/rule files)",
+    "Streamlit/UI sử dụng association_rules.csv hoặc top_association_rules_preview.csv"
+  ],
+  "explicitly_not_modified_by_this_notebook": [
+    "01_eda_data_structure_check.ipynb",
+    "02_data_preprocessing_master_dataset.ipynb",
+    "03_classification_pipeline.ipynb",
+    "04_regression_pipeline.ipynb",
+    "05_clustering_rfm.ipynb",
+    "06_surprise_recommendation (1).ipynb"
+  ]
+}

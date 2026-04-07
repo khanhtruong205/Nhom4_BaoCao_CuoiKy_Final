@@ -1,0 +1,6 @@
+antecedents_str,consequents_str,support,support_count,confidence,lift,leverage,conviction,antecedent_len,consequent_len,rule_str
+bed_bath_table,furniture_decor,0.096819,70,0.35533,1.2718,0.020691,1.117794,1,1,bed_bath_table → furniture_decor
+furniture_decor,bed_bath_table,0.096819,70,0.346535,1.2718,0.020691,1.113332,1,1,furniture_decor → bed_bath_table
+home_confort,bed_bath_table,0.059474,43,0.86,3.156244,0.040631,5.196601,1,1,home_confort → bed_bath_table
+bed_bath_table,home_confort,0.059474,43,0.218274,3.156244,0.040631,1.190755,1,1,bed_bath_table → home_confort
+cool_stuff,baby,0.027663,20,0.30303,2.355816,0.01592,1.250226,1,1,cool_stuff → baby
