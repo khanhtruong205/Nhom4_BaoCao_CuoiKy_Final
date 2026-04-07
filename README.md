@@ -74,7 +74,24 @@ Tài liệu này mô tả đầy đủ:
 ---
 
 ## 3. Cấu trúc dự án và cách khởi động
+---
 
+## 📥 Hướng dẫn tải và cài đặt Mô hình (Machine Learning Models)
+
+Do giới hạn dung lượng của GitHub (100MB cho mỗi tập tin), các tệp mô hình Machine Learning có kích thước lớn (~1.4 GB) được lưu trữ riêng biệt trên Google Drive.
+
+**1. Liên kết tải xuống:**
+* [Google Drive - Olist Customer Insights Models](https://drive.google.com/drive/folders/1KeHjom1BTDa3YNhFubfFQPvaf_pn3AbS?usp=sharing)
+
+**2. Các bước cài đặt:**
+* Tải xuống toàn bộ các tập tin `.joblib` từ link trên.
+* Di chuyển các tập tin vào thư mục: `artifacts/models/`
+* Khởi chạy lại ứng dụng Streamlit.
+
+**3. Kiểm tra trạng thái:**
+* Truy cập trang **⚙️ Trung tâm vận hành (Admin)**. Hệ thống sẽ tự động chuyển trạng thái từ **🟡 Tạm thời (Demo)** sang **🟢 Sẵn sàng (Ready)** nếu file được đặt đúng chỗ.
+
+---
 ### 3.1. Cấu trúc thư mục mong đợi
 
 ```text
