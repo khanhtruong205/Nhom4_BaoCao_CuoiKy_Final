@@ -76,7 +76,7 @@ Tài liệu này mô tả đầy đủ:
 ## 3. Cấu trúc dự án và cách khởi động
 ---
 
-## 📥 Hướng dẫn tải và cài đặt Mô hình (Machine Learning Models)
+##  Hướng dẫn tải và cài đặt Mô hình (Machine Learning Models)
 
 Do giới hạn dung lượng của GitHub (100MB cho mỗi tập tin), các tệp mô hình Machine Learning có kích thước lớn (~1.4 GB) được lưu trữ riêng biệt trên Google Drive.
 
