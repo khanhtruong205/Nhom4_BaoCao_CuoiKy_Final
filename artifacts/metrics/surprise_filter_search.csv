@@ -1,6 +1,0 @@
-stage,users,items,interactions,density,sparsity,min_user_ratings,min_item_ratings,user_coverage_pct,item_coverage_pct,eligible,skip_reason,cv_rmse_mean,cv_mae_mean,cv_rmse_std,cv_mae_std
-user>=2 | item>=2,1272,713,2688,0.00296383,0.99703617,2,2,1.34,2.17,True,,1.5134800810362499,1.3256358191324924,0.021700145621114365,0.01816585928031373
-user>=2 | item>=3,593,178,1244,0.01178544,0.98821456,2,3,0.63,0.54,True,,1.5553575174449803,1.379849094295919,0.021415330104305044,0.01625350680943669
-user>=2 | item>=4,406,81,833,0.02532993,0.97467007,2,4,0.43,0.25,False,below_candidate_thresholds,,,,
-user>=3 | item>=2,26,31,81,0.10049628,0.89950372,3,2,0.03,0.09,False,below_candidate_thresholds,,,,
-user>=3 | item>=3,11,11,35,0.2892562,0.7107438,3,3,0.01,0.03,False,below_candidate_thresholds,,,,

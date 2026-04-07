@@ -1,3 +1,0 @@
-decision_type,k,silhouette,calinski_harabasz,davies_bouldin,min_cluster_share_pct,decision_note
-metric_optimal,2,0.7153837545491953,44102.36574215886,0.46999060576003565,3.0002784978255748,Tối ưu theo metric; dùng làm mốc tham chiếu thống kê.
-final_selected,4,0.395254059461233,74003.1504820514,0.7564686881235386,3.0002784978255748,"K cuối dùng cho profile cụm, artifact, báo cáo và Streamlit."

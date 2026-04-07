@@ -1,2 +1,0 @@
-model,top_k,positive_threshold,n_eval_users,hit_rate_at_k,mean_recall_at_k,mrr_at_k,ndcg_at_k,catalog_coverage_at_k
-SVD_TUNED,10,4,308,0.03896103896103896,0.037337662337662336,0.01041537827252113,0.016281763062207532,0.1458625525946704

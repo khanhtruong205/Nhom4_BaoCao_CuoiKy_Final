@@ -1,3 +1,0 @@
-# Chặn các model nặng (Đã có link Google Drive nên không cần up lên đây)
-artifacts/models/*.joblib
-artifacts/models/*.pkl
